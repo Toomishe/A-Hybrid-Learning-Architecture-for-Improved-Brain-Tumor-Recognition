@@ -1,0 +1,16 @@
+Accurate classification of brain tumor is an important step for early intervention. In 1
+recent years, artificial intelligence (AI)-based diagnostic systems are being utilized to help automate 2
+the process and provide more objective and fast diagnosis. The work introduces an enhanced AI- 3
+based architecture for improved brain tumor classification. We introduce a hybrid architecture 4
+that integrates vision transformer (ViT) and deep neural networks to create an ensemble classifier, 5
+resulting in a more robust brain tumor classification framework. The analysis pipeline begins with 6
+preprocessing and data normalization Then, three feature sets are extracted for the classification. The 7
+first is a descriptor for texture features using higher-order texture feature descriptors . Additionally, 8
+local deeper features of the brain images are extracted using an optimized convolutional neural 9
+networks (CNN) architecture. Finally, ViT-derived features are also integrated due to its ability to 10
+handle dependencies across larger distances, while being less sensitive to data argumentation. The 11
+extracted features are then weighted and fused and fed to a machine learning classifier for final 12
+classification of brain MRIs. The proposed weighted ensemble architecture has been evaluated on 13
+both publicly-available and locally-collected brain MRIs of four classes using various metrics. The 14
+results showed that leveraging the benefits of individual components of the proposed architecture 15
+lead to improved performance using ablation studies. 
